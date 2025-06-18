@@ -5,7 +5,14 @@ function Userlist()
     return(
 
         <React.Fragment>
-        <h5>Userlist</h5>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <h5>Userlist</h5>                
+                    </div>
+                    </div>
+                    </div>
+        
     </React.Fragment>    
     );  
 }

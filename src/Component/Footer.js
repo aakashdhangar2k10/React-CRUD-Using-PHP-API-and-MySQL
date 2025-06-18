@@ -5,10 +5,10 @@ function Footer()
     return(
 
         <React.Fragment>
-        <div className="bg-warning">
+        <footer className="bg-warning  fixed-bottom">
             <div className="container">
             <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-12 mt-3 text-start">
                      <p>Copyright @2025 Web Developer</p>
                 </div>
                
@@ -16,7 +16,7 @@ function Footer()
             
             </div>
 
-        </div>
+        </footer>
     </React.Fragment>    
     );  
 }
