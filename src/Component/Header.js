@@ -22,6 +22,12 @@ function Header() {
               <li className="nav-item">
                 <NavLink to="/adduser" className="nav-link" href="#">Add User</NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/productlist" className="nav-link" href="#">Product List</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/addproduct" className="nav-link" href="#">Add Product</NavLink>
+              </li>
 
             </ul>
             <form className="d-flex">

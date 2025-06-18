@@ -5,7 +5,9 @@ import Header from './Component/Header';
 import Home from './Component/Home';
 import Userlist from './Component/Userlist';
 import Adduser from './Component/Adduser';  
-import Edituser from './Component/Edituser';  
+import Edituser from './Component/Edituser';
+import Productlist from './Component/Productlist';
+import Addproduct from './Component/Addproduct';
 import Footer from './Component/Footer';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path="/userlist" element= { <Userlist/> } />
           <Route path="/adduser" element= { <Adduser/> } />
           <Route path="/edituser/:id" element= { <Edituser/> } />
+          <Route path="/productlist" element= { <Productlist/> } />
+          <Route path="/addproduct" element= { <Addproduct/> } />
         </Routes>
       <Footer/>
       

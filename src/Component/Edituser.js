@@ -70,7 +70,7 @@ function Edituser() {
                                 </div>
                             </div>
                             <div className="mb-3 row">
-                                <label className="col-sm-2 "></label>
+                                <label className="col-sm-2"></label>
                                 <div className="col-sm-10">
                                     <button name="submit" className="btn btn-success">Update</button>
                                 </div>
